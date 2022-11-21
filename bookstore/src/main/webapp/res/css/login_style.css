@@ -1,0 +1,101 @@
+#login_header {
+    height: 82px;
+    width: 1200px;
+}
+
+#login_content {
+    float: left;
+    margin-top: 150px;
+    margin-left: 300px;
+}
+
+#login_content span {
+    font-size: 60px;
+    color: white;
+}
+
+.login_banner {
+    height: 475px;
+    background-color: #39987c;
+}
+
+#content {
+    height: 475px;
+    width: 1200px;
+}
+
+.login_box {
+    margin: 20px;
+    height: 260px;
+    width: 350px;
+}
+
+.login_form {
+    height: 335px;
+    width: 390px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+    background-color: #fff;
+}
+
+.title a {
+    float: right;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: red;
+    text-decoration: none;
+}
+
+.title {
+    height: 30px;
+}
+
+.title .errorMsg {
+    float: right;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: red;
+}
+
+.msg_content {
+    background: none repeat scroll 0 0 #fff6d2;
+    border: 1px solid #ffe57d;
+    color: #666;
+    height: 18px;
+    line-height: 18px;
+    padding: 3px 10px 3px 40px;
+    position: relative;
+    border: none;
+}
+
+.form .itxt {
+    float: none;
+    font-family: "宋体";
+    font-size: 14px;
+    height: 18px;
+    line-height: 18px;
+    overflow: hidden;
+    padding: 10px 0 10px 10px;
+    width: 220px;
+    border: 1px #e3e3e3 solid;
+}
+
+.title h1 {
+    float: left;
+    margin-top: 5px;
+}
+
+#sub_btn {
+    background-color: #39987c;
+    border: none;
+    color: #fff;
+    width: 360px;
+    height: 40px;
+}
+
+.logo_img {
+    float: left;
+    width: 80px;
+    height: 80px;
+}

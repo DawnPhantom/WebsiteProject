@@ -1,0 +1,28 @@
+#main {
+    height: 460px;
+    width: 1200px;
+    border: 1px black solid;
+    overflow: auto;
+    padding-left: 40px;
+}
+
+#main table {
+    margin: auto;
+    margin-top: 80px;
+    border-collapse: collapse;
+}
+
+#main table td {
+    width: 120px;
+    text-align: center;
+    border-bottom: 1px #e3e3e3 solid;
+    padding: 10px;
+}
+
+#header div span {
+    margin: 10px;
+}
+
+#header div a {
+    color: blue;
+}

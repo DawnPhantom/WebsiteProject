@@ -1,0 +1,39 @@
+.logo_img {
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+
+#main {
+    height: 500px;
+    width: 1200px;
+    border: 1px black solid;
+    overflow: auto;
+    padding: 5px;
+}
+
+#main table {
+    margin: auto;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+#main table td {
+    width: 120px;
+    text-align: center;
+    border-bottom: 1px #e3e3e3 solid;
+    padding: 10px;
+}
+
+#header div span {
+    margin: 10px;
+}
+
+#header div a {
+    color: blue;
+}
+
+#pn_input {
+    width: 30px;
+    text-align: center;
+}
