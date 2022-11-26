@@ -36,7 +36,7 @@ public class CartServlet extends BaseServlet
 		{
 			resp.getWriter().print("<script language='javascript'>" +
 					"alert(\"Cart Empty!\");"
-					+"location.href='/bookstore/client/clientServlet?action=paging';"
+					+"location.href='/client/clientServlet?action=paging';"
 					+"</script>");
 			return;
 		}

@@ -36,7 +36,7 @@ public class HistoryServlet extends BaseServlet
 		{
 			resp.getWriter().print("<script language='javascript'>" +
 					"alert(\"History Empty!\");"
-					+"location.href='/bookstore/client/clientServlet?action=paging';"
+					+"location.href='/client/clientServlet?action=paging';"
 					+"</script>");
 			return;
 		}

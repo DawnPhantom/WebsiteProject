@@ -11,8 +11,17 @@
         $(function (){
             $("#username").blur(function (){
                 var username = this.value;
-                $.getJSON("/bookstore/userServlet?action=ajaxUsernameCheck","username="+username,function(data){
-                    console.log(data)
+                var usernamePatt = /^\w{6,15}$/;
+                if (!usernamePatt.test(username)) {
+                    $("span.errorMsg").text("用户名应为6-15位数字/字母");
+                    return false;
+                } else $("span.errorMsg").text("");
+                $.getJSON("userServlet?action=ajaxUsernameCheck","username="+username,function(data){
+                    // console.log(data);
+                    if(data.isUsable === false) {
+                        $("span.errorMsg").text("用户名已存在");
+                        return false;
+                    }
                 })
             })
         })

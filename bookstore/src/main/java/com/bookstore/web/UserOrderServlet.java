@@ -37,7 +37,7 @@ public class UserOrderServlet extends BaseServlet
 		{
 			resp.getWriter().print("<script language='javascript'>" +
 					"alert(\"Order Empty!\");"
-					+"location.href='/bookstore/client/clientServlet?action=paging';"
+					+"location.href='/client/clientServlet?action=paging';"
 					+"</script>");
 			return;
 		}
@@ -111,7 +111,7 @@ public class UserOrderServlet extends BaseServlet
 		}
 //		System.out.println("111");
 		resp.getWriter().print("<script language='javascript'>"
-				+"location.href='/bookstore/client/clientServlet?action=paging';"
+				+"location.href='/client/clientServlet?action=paging';"
 				+"</script>");
 	}
 
@@ -129,7 +129,7 @@ public class UserOrderServlet extends BaseServlet
 		service.cancelOrder(temp);
 
 		resp.getWriter().print("<script language='javascript'>" +
-				"location.href='/bookstore/order/userOrderServlet?action=paging';"
+				"location.href='/order/userOrderServlet?action=paging';"
 				+ "</script>");
 	}
 }
