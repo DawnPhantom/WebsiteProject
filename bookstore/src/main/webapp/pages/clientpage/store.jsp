@@ -51,7 +51,12 @@
                     </div>
                     <div class="book_author">
                         <span class="sp1">作者:</span>
-                        <span class="sp2">${book.author}</span>
+                        <c:if  test="${fn:length(book.author)>9}">
+                            <span class="sp2">${(fn:substring(book.author,0,9)).concat('...')}</span>
+                        </c:if>
+                        <c:if  test="${fn:length(book.author)<=9}">
+                            <span class="sp2">${book.author}</span>
+                        </c:if>
                     </div>
                     <div class="book_price">
                         <span class="sp1">价格:</span>
